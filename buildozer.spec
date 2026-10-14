@@ -5,11 +5,10 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,kivy,sdl2
+requirements = python3,kivy,sdl2,requests,urllib3,idna,certifi,charset-normalizer
 orientation = portrait
 osx.kivy_version = 2.1.0
 
-fullscreen = 0
 android.permissions = INTERNET,ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION
 android.api = 33
 android.minapi = 21
