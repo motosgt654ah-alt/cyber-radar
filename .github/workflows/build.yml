@@ -41,6 +41,9 @@ jobs:
           zlib1g-dev \
           libffi-dev \
           libssl-dev \
+          libltdl-dev \
+          libtool \
+          patch \
           ccache \
           zip \
           unzip \
@@ -64,3 +67,4 @@ jobs:
       with:
         name: app-debug.apk
         path: bin/*.apk
+        
