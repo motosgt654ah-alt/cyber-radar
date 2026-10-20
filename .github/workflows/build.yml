@@ -23,16 +23,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Cache Buildozer directory
-        uses: actions/cache@v4
-        with:
-          path: |
-            .buildozer
-            bin/
-          key: ${{ runner.os }}-buildozer-${{ hashFiles('buildozer.spec') }}
-          restore-keys: |
-            ${{ runner.os }}-buildozer-
-
       - name: Install dependencies
         run: |
           sudo apt-get update
