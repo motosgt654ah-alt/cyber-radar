@@ -1,3 +1,14 @@
+[app]
+
+# (str) Title of your application
+title = Cyber Radar
+
+# (str) Package name
+package.name = cyberradar
+
+# (str) Package domain (needed for android packaging)
+package.domain = org.mouduapp
+
 # (str) Source code where the main.py live
 source.dir = .
 
