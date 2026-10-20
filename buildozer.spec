@@ -20,7 +20,7 @@ version = 0.1
 
 # (list) Application requirements
 # Usando kivy==2.2.1 estavel para evitar erros de versao no pip
-requirements = python3, kivy==2.2.1
+requirements = python3, kivy
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
