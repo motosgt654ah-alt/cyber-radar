@@ -5,7 +5,7 @@ package.name = fox
 package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
-version = 0.1
+version = 0.3
 requirements = python3,kivy
 orientation = portrait
 
