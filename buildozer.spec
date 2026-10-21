@@ -19,7 +19,7 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 
 # (list) Application requirements
-requirements = python3, kivy, android, hostpython3, sdl2, pyjnius
+requirements = python3, kivy, cython==0.29.33, android, hostpython3, sdl2, pyjnius
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
